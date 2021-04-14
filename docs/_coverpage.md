@@ -1,8 +1,8 @@
 <!-- ![logo](_media/icon.svg) -->
 
-# ZRT <small>wiki</small>
+# ioi <small>ink</small>
 
-> zhangruitian’s Document
+> zrt.docs
 
 [GitHub](https://github.com/zhangruitian)
 [Get Started](notepad.md)

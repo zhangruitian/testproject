@@ -26,13 +26,16 @@
       // basePath: '/zh-cn/',  // 基础路径
       repo: 'https://github.com/zhangruitian',  // 右上角跳转仓库
       loadSidebar: '_sidebar.md',  // 侧边栏
-      coverpage: true,  // 封面 _coverpage.md
+      coverpage: {
+        '/': '_coverpage.md',
+        '/zh-cn/': '_coverpage.md'
+      },  // 封面 _coverpage.md
       onlyCover: true,  // 仅在首页展示封面
       subMaxLevel: 2,  // 侧边栏标题展示级数
       // alias: {
       //   '/.*/_sidebar.md': '/_sidebar.md'
       // },
-      loadNavbar: true,
+      loadNavbar: '_navbar.md',
       mergeNavbar: true,
       // 文字计算
       count:{

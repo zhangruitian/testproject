@@ -1,4 +1,4 @@
-<!-- ![logo](_media/icon.svg) -->
+![logo](_media/icon.svg ':size=WIDTHxHEIGHT')
 
 # ioi <small>ink</small>
 

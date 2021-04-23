@@ -1,7 +1,6 @@
 - [Guide](guide.md "Guide")
 - [Fast Notepad](notepad.md "Fast Notepad")
 - [Linux](linux.md "Linux")
-
 - [Build Project](buildProject.md "Build Project")
 
 - Docsfiy Demo

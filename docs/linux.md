@@ -108,7 +108,7 @@ df -h  // 查询磁盘空间
 ## tar
 ```
 tar -zcvf (file).tar.gz (file)   //  给文件打tar.gz包
-tar -zxvf (source file) -C target dir  // 解压文件到指定路径
+tar -zxvf (source file) -C (target dir)  // 解压文件到指定路径
 ```
 
 ## install
@@ -138,28 +138,4 @@ yum install nginx
 wget https://github.com/fatedier/frp/releases/download/v0.36.2/frp_0.36.2_linux_amd64.tar.gz
 解压
 tar -zxvf frp_0.36.2_linux_amd64.tar.gz
-```
-
-### Jenkins  
-1. install jenkins
-```
-wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
-sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-sudo apt-get update
-sudo apt-get install jenkins
-```
-
-2. install the Open Java Development Kit (OpenJDK) run the following:
-```
-sudo apt update  // Update the repositories
-sudo apt search openjdk  // search of all available packages
-sudo apt install openjdk-11-jdk  // Pick one option and install it
-sudo apt install openjdk-11-jdk  // Confirm installation
-java -version  // checking installation
-```
-
-3. start
-```
-cd /usr/share/jenkins
-pm2 start 'java -jar jenkins.war --httpPort=9090' --name jenkins
 ```

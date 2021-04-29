@@ -3,6 +3,7 @@
 - [Linux](linux.md "Linux")
 - [Build Project](buildProject.md "Build Project")
 - [Jenkins](jenkins.md "Jenkins")
+- [Raspberrypi](raspberrypi.md "Raspberrypi")
 
 - Docsfiy Demo
     - [Code block and Copy to Clipboard](codeBlockAndCopy.md "Code block and Copy to Clipboard")

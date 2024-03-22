@@ -1,6 +1,6 @@
 ![logo](_media/icon.svg ':size=WIDTHxHEIGHT')
 
-# ioi <small>ink</small>
+# ZRT <small>com</small>
 
 > zrt.docs
 
